@@ -12,7 +12,7 @@
    <!-- navbar -->
    <header class="container">
 
-    <nav class="navbar navbar-expand-lg bg-light">
+    <nav class="navbar navbar-expand-lg bg-light fixed-top">
      <div class="container">
     <a class="navbar-brand fs-1 fw-semibold text-capitalize" href="#">mentor squad</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -151,8 +151,67 @@
   </div>
 </div>
 </section>
-   </main>
-   <!-- end of main page -->
+<!-- questions -->
+<section id="questions" class="p-5">
+<div class="container">
+  <div  class="text-center mb-4">
+
+    <h2 >frequently asked questions</h2>
+    <p>It is a long established fact that a reader will be distracted by the readable 
+  content of a page when looking at its layout</p>
+  </div>
+  <div class="accordion accordion-flush" id="questions">
+    <!-- question-1 -->
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingOne">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-1">
+        what are the difference between grid and flexbox?
+      </button>
+    </h2>
+    <div id="question-1" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#questions">
+      <div class="accordion-body">the basic difference between css grid and css flexbox is that flexbox was designed for layout in one dimension.grid was designed for two dimension </div>
+    </div>
+  </div>
+  <!-- question-2 -->
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingOne">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-two">
+        what are the difference between bootstrap and tailwind?
+      </button>
+    </h2>
+    <div id="question-two" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#questions">
+      <div class="accordion-body"> bootstrap comes with a set of pre-styled responsive ,mobile-first components that posses a definite kit.tailwind css uses a set of utility classes to create a nest UI with more flexibilty and uniquenss</div>
+    </div>
+  </div>
+  <!-- question-3 -->
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingOne">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-three">
+        whatis css box model?
+      </button>
+    </h2>
+    <div id="question-three" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#questions">
+      <div class="accordion-body">the css box model is essentially a box that wraps around every html element .</div>
+    </div>
+  </div>
+  <!-- question-4 -->
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingOne">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-4">
+        what what is semantic tag?
+      </button>
+    </h2>
+    <div id="question-4" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#questions">
+      <div class="accordion-body">the html semantics refers to the tags that provide meaning to an html page rather than just presentation.it makes html more comprehensible by better defining the different sections and layout of web pages.</div>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+<!-- end of quextion -->
+    </main>
+    <!-- end of main page -->
+
    
 <!-- Modal -->
 <div class="modal fade" id="join" tabindex="-1" aria-labelledby="joinLabel" aria-hidden="true">
