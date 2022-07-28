@@ -1,17 +1,21 @@
 .carousel-item {
  height: 32rem;
-color: white;
+color: black;
 position: relative;
+/* background: rgba(0, 0, 0, 1); */
 }
 .container-info{
  position: absolute;
- bottom: 0;
+ /* bottom: 0;
  left: 0;
  right: 0;
  margin-bottom: 50px;
- margin-left: 30px;
+ margin-left: 30px; */
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%,-50%);
 }
-.overlay-image{
+.overlay-image {
  position: absolute;
  bottom: 0;
  left: 0;
@@ -20,4 +24,9 @@ position: relative;
  background-position: center;
  background-size: cover;
  opacity: 0.8;
+}
+@media (min-width:768px) {
+ .modal-group{
+  width:50%;
+ }
 }
