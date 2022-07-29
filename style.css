@@ -34,3 +34,8 @@ position: relative;
   width:50%;
  }
 }
+@media (min-width:576px) {
+ .course-img{
+  width: 100%;
+ }
+}
